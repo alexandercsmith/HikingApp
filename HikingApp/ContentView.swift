@@ -13,7 +13,7 @@ struct ContentView: View {
   
   var body: some View {
     List(self.hikes, id: \.name) { hike in
-      Text(hike.name)
+      HikeCell(hike: hike)
     }
   }
 }

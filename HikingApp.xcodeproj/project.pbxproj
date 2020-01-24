@@ -14,6 +14,7 @@
 		58CBBE7323DB69F30057CC8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58CBBE7223DB69F30057CC8D /* Preview Assets.xcassets */; };
 		58CBBE7623DB69F30057CC8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58CBBE7423DB69F30057CC8D /* LaunchScreen.storyboard */; };
 		58CBBE7F23DB6A660057CC8D /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CBBE7E23DB6A660057CC8D /* Hike.swift */; };
+		58CBBE8223DB73B30057CC8D /* HikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CBBE8123DB73B30057CC8D /* HikeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		58CBBE7523DB69F30057CC8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58CBBE7723DB69F30057CC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58CBBE7E23DB6A660057CC8D /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		58CBBE8123DB73B30057CC8D /* HikeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		58CBBE6823DB69F00057CC8D /* HikingApp */ = {
 			isa = PBXGroup;
 			children = (
+				58CBBE8023DB73A20057CC8D /* Views */,
 				58CBBE7D23DB6A570057CC8D /* Models */,
 				58CBBE6923DB69F00057CC8D /* AppDelegate.swift */,
 				58CBBE6B23DB69F00057CC8D /* SceneDelegate.swift */,
@@ -84,6 +87,14 @@
 				58CBBE7E23DB6A660057CC8D /* Hike.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		58CBBE8023DB73A20057CC8D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58CBBE8123DB73B30057CC8D /* HikeCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 				58CBBE6C23DB69F00057CC8D /* SceneDelegate.swift in Sources */,
 				58CBBE7F23DB6A660057CC8D /* Hike.swift in Sources */,
 				58CBBE6E23DB69F00057CC8D /* ContentView.swift in Sources */,
+				58CBBE8223DB73B30057CC8D /* HikeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
