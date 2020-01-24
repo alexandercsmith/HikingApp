@@ -9,13 +9,17 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, World!")
+  let hikes = Hike.all()
+  
+  var body: some View {
+    List(self.hikes, id: \.name) { hike in
+      Text(hike.name)
     }
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+  static var previews: some View {
+    ContentView()
+  }
 }
