@@ -30,6 +30,7 @@
 		58CBBE7E23DB6A660057CC8D /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		58CBBE8123DB73B30057CC8D /* HikeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeCell.swift; sourceTree = "<group>"; };
 		58CBBE8323DB7CFD0057CC8D /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		58CBBE8523DB8B450057CC8D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +47,7 @@
 		58CBBE5D23DB69F00057CC8D = {
 			isa = PBXGroup;
 			children = (
+				58CBBE8523DB8B450057CC8D /* README.md */,
 				58CBBE6823DB69F00057CC8D /* HikingApp */,
 				58CBBE6723DB69F00057CC8D /* Products */,
 			);
