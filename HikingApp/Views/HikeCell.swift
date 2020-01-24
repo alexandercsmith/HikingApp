@@ -17,7 +17,10 @@ struct HikeCell: View {
         .resizable()
         .frame(width: 100, height: 100)
         .cornerRadius(16)
-      Text(hike.name)
+      VStack(alignment: .leading) {
+        Text(hike.name)
+        Text(String(format: "%.2f", hike.miles))
+      }
     }
   }
 }
